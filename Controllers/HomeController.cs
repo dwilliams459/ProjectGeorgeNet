@@ -15,7 +15,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return Redirect("https://witty-ground-090a79e0f.3.azurestaticapps.net/home.html");
+        return Redirect("https://witty-ground-090a79e0f.3.azurestaticapps.net");
         //return View();
     }
 
